@@ -22,14 +22,26 @@ public class maximum {
 
 
 
-
+       System.out.print("array elements are :");
         for(int i =0; i < a.length ; i++){
-            System.out.print(a[i] +" ");
+            System.out.print( a[i] +" ");
         }
 
 
+        int count = 0;
 
-         
+
+         // maximum in array
+
+         for(int i =0; i < a.length ; i++){
+            
+            if (a[i]>count){
+
+                count = a[i];
+            }
+        }
+         System.out.println( );
+        System.out.println(    "maximum in array : " + count);
 
 
     }
